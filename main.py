@@ -83,4 +83,4 @@ async def on_message(message):
 
 
 keep_alive.keep_alive()
-client.run("MTEyODE1NjE0MTM2NTUwMTk1Mg.GJc87X.yoaB1DbM96GJnoN8yPVB6Uk3yTg2dESGxFKJhw")  # TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面
+client.run("your_token")  # TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面
