@@ -1,7 +1,7 @@
 # 導入Discord.py
 import discord
 import random
-
+import keep_alive
 import time
 
 # client 是我們與 Discord 連結的橋樑，intents 是我們要求的權限
@@ -82,5 +82,5 @@ async def on_message(message):
         await channel.send(f'今天<@{mem}>是不是有點好看阿,我...我才沒有說喜歡他勒>////<')
 
 
-
-client.run("MTEyODE1NjE0MTM2NTUwMTk1Mg.GahHx_.cUHWL-7caN1mgpzJ4YnYZp_zVeDAt6DWGopWkQ")  # TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面
+keep_alive.keep_alive()
+client.run("MTEyODE1NjE0MTM2NTUwMTk1Mg.GJc87X.yoaB1DbM96GJnoN8yPVB6Uk3yTg2dESGxFKJhw")  # TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面
